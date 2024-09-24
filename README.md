@@ -7,7 +7,6 @@ Welcome to the Next.js Authentication System! This project features a robust and
 - **User Authentication**: Secure login and registration using Firebase Authentication.
 - **Email & Password**: Sign up and sign in with email and password.
 - **App Router Integration**: Leverage the latest Next.js 13 App Router for intuitive navigation and enhanced performance.
-- **Server-Side Rendering (SSR)**: Efficient SSR ensures quick page loads and SEO optimization.
 - **Responsive UI**: Beautiful and responsive user interface using modern styling frameworks.
 
 ## Table of Contents
