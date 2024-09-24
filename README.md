@@ -75,7 +75,8 @@ Before you begin, ensure you have the following installed:
 - `src/styles/`: Holds global styling and theme variables. Used in assosiation with `.module.css` files for unique page styling
 - `.env.local`: Holds your Firebase environment variables.
 
-## 🚀 Deployment #### This is all untested.
+## 🚀 Deployment
+### This is all untested.
 
 To deploy this application, you can use Vercel, Netlify, or any hosting service that supports Next.js.
 
