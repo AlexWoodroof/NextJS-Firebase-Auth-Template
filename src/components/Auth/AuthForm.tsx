@@ -184,7 +184,7 @@ const AuthForm: React.FC<AuthFormProps> = ({
         <div className="bottomText">
           <p>
             {bottomText}{' '}
-            <a href={bottomLinkUrl} onClick={onBottomLinkClick}>
+            <a href={bottomLinkUrl} onClick={onBottomLinkClick} style={{ color: '#10a37f' }}>
               {bottomLinkText}
             </a>
           </p>
