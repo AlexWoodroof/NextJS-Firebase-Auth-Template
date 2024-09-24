@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Default theme (light) */
+:root {
+  --foreground: #353535;
+  --background: #ffffff;
+  --shadow: #6e6d6d;
+  --hover: #b9b9b9;
+  --highlight: #10a37f;
+  --highlight-hover: #0e9272;
+  --error: #ff0000;
+}
+
+/* Dark theme */
+.dark {
+  --foreground: #ffffff;
+  --background: #353535;
+  --shadow: #ff0000;
+}
+
+/* Light theme */
+.light {
+  --foreground: #353535;
+  --background: #ffffff;
+  --shadow: #6e6d6d;
+}
+
+html, body {
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+body {
+  color: var(--foreground);
+  background-color: var(--background);
+}

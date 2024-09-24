@@ -1,0 +1,59 @@
+/* styles/appBar.css */
+.app-bar {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 10px;
+  z-index: 1000;
+  background-color: transparent;
+}
+
+.app-bar-content {
+  padding-top: 0px;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.left-section,
+.right-section {
+  display: flex;
+  align-items: center;
+}
+
+.icon-button {
+  background: transparent;
+  color: var(--foreground);
+  cursor: pointer;
+  padding: 0.5rem;
+  border-radius: 50%;
+  transition: background-color 0.3s ease, border-color 0.3s ease;
+  border: none;
+  margin-right: 10px;
+}
+
+.icon-button:hover {
+  background-color: var(--hover);
+}
+
+.icon {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.edit-mode-controls {
+  display: flex;
+  align-items: center;
+}
+
+.edit-mode-controls > * {
+  margin-right: 10px;
+}
+
+/* Add this new rule */
+.edit-mode-controls > *:first-child {
+  margin-right: 0;
+}

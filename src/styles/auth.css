@@ -1,0 +1,34 @@
+.auth-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.auth-content {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    padding-bottom: 3rem;
+    border-radius: 8px;
+    max-width: 800px;
+    width: 100%;
+}
+
+.form {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    padding: 2rem;
+    background: var(--background);
+    border-radius: 8px;
+    box-shadow: 0 4px 10px var(--shadow);
+    min-width: 400px;
+    max-width: 400px;
+    width: 100%;
+    color: var(--foreground);
+}

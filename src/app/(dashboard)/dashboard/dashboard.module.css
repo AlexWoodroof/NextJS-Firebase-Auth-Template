@@ -1,0 +1,40 @@
+
+.dashboard {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  margin-top: 200px;
+  color: #fff111;
+}
+
+.dashboard-header {
+  background-color: #4a90e2;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+
+.dashboard-body {
+  display: flex;
+  flex: 1;
+}
+
+.dashboard-sidebar {
+  background-color: #f4f4f4;
+  width: 200px;
+  padding: 1rem;
+}
+
+.dashboard-sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.dashboard-sidebar li {
+  margin: 1rem 0;
+}
+
+.dashboard-main {
+  flex: 1;
+  padding: 1rem;
+}

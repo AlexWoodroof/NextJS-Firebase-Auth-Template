@@ -1,0 +1,70 @@
+.password-section {
+    overflow: hidden;
+    transition: max-height 1.0s ease-in-out;
+    max-height: 0;
+    /* Initially collapsed */
+}
+
+.password-section.expanded {
+    max-height: 500px;
+    /* Adjust this value according to the content size */
+}
+
+.field {
+    opacity: 1;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.password-section:not(.expanded) .field {
+    opacity: 0;
+}
+
+.forgotPassword,
+.stayLoggedIn {
+    text-align: left;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+.forgotPassword a {
+    color: var(--highlight);
+    text-decoration: none;
+}
+
+.stayLoggedIn {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 1rem;
+}
+
+.stayLoggedIn input[type="checkbox"] {
+    margin-right: 0.5rem;
+}
+
+.password-requirements {
+    text-align: left;
+    font-size: 0.9rem;
+}
+
+.password-requirements h4 {
+    margin-bottom: 0rem;
+}
+
+.password-requirements ul {
+    list-style-type: none;
+    padding-left: 0;
+    margin: 0;
+}
+
+.password-requirements li {
+    margin-bottom: 0.25rem;
+}
+
+.password-requirements .met {
+    color: green;
+}
+
+.password-requirements .not-met {
+    color: red;
+}

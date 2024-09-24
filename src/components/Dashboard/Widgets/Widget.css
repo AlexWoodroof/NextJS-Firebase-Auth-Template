@@ -1,0 +1,33 @@
+/* TradingOverview.css */
+.trading-overview {
+  padding: 15px;
+}
+
+.overview-stats {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.stat-item {
+  text-align: center;
+  flex: 1;
+}
+
+.stat-item h3 {
+  font-size: 0.9rem;
+  color: #666;
+  margin-bottom: 5px;
+}
+
+.stat-value {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.balance-chart h3 {
+  font-size: 1rem;
+  color: #333;
+  margin-bottom: 10px;
+}
