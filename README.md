@@ -73,6 +73,7 @@ Before you begin, ensure you have the following installed:
 - `src/components/`: Reusable components like forms, inputs, buttons, and headers. `.env.local`. See [step 3](#3.-Configure-Firebase:)
 - `src/lib/firebase.js`: Initializes and configures Firebase for use across the app. Requires the 
 - `src/utils/`: Utility functions and helpers.
+- `src/styles/`: Holds global styling and theme variables. Used in assosiation with `.module.css` files for unique page styling
 - `.env.local`: Holds your Firebase environment variables.
 
 ## 🚀 Deployment #### This is all untested.
