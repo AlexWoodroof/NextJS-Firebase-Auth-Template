@@ -1,6 +1,6 @@
 # Next.js Authentication System with Firebase
 
-Welcome to the Next.js Authentication System! This project features a robust and secure login and registration system built with Next.js and Firebase Authentication. It leverages Next.js 13's App Router for streamlined routing and powerful server-side rendering.
+Welcome to the Next.js Authentication System! This project features a robust and secure login and registration system built with Next.js and Firebase Authentication. It leverages Next.js 13's App Router for streamlined routing.
 
 ## ✨ Features
 
@@ -91,6 +91,24 @@ To deploy this application, you can use Vercel, Netlify, or any hosting service 
    - Choose `Hosting` and follow the prompts.
    - Build your project: `npm run build`
    - Deploy: `firebase deploy`
+
+## Examples
+
+### Dynamic App Bar - Depends on page
+<img src="examples/appbar.png" alt="Dynamic App Bar Screenshot" width="600"/>
+
+### Dynamic Authentication Screens - Password field only drops down upon valid email
+
+<p>
+  <img src="examples/login.png" alt="Login Page Screenshot" width="300"/>
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="examples/registration.png" alt="Registration Page Screenshot" width="300"/>
+</p>
+
+### Example use:
+<p>
+  <img src="examples/registration.gif" alt="Demo of Registration Page" width="500"/>
+</p>
 
 ## 🤝 Contributing
 
