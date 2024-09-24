@@ -101,4 +101,4 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ## 💡 Acknowledgements
 
-A big thank you to the developers and contributors of Next.js and Firebase for their incredible work! This readme was constructed by ChatGPT by OpenAI.
+A big thank you to the developers and contributors of Next.js and Firebase for their incredible work! And to [HeroIcons](https://heroicons.dev/) for their icons! This readme was constructed by ChatGPT from OpenAI.
