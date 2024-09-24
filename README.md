@@ -95,7 +95,7 @@ To deploy this application, you can use Vercel, Netlify, or any hosting service 
 ## Examples
 
 ### Dynamic App Bar - Depends on page
-<img src="examples/appbar.png" alt="Dynamic App Bar Screenshot" width="600"/>
+<img src="examples/appbar.png" alt="Dynamic App Bar Screenshot"/>
 
 ### Dynamic Authentication Screens - Password field only drops down upon valid email
 
