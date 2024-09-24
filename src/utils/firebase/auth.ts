@@ -12,7 +12,7 @@ import {
     browserLocalPersistence,
     onAuthStateChanged,
 } from 'firebase/auth';
-import { auth } from '../../config/firebaseConfig';
+import { auth } from '../../lib/firebaseConfig';
 import { createUserDocument } from './firestore/userManagement';
 
 export const register = async (userData: {

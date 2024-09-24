@@ -4,7 +4,7 @@
 import React, { useEffect, useState } from 'react';
 import { useRouter, usePathname } from 'next/navigation';
 import { onAuthStateChanged } from 'firebase/auth';
-import { auth } from '../../config/firebaseConfig';
+import { auth } from '../../lib/firebaseConfig';
 
 interface AuthWrapperProps {
   children: React.ReactNode;

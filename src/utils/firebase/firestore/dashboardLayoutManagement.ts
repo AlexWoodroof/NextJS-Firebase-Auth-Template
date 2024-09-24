@@ -1,7 +1,7 @@
 // utils/firebase/dashboardLayoutsManagement.ts
 
 import { doc, setDoc, collection, getDocs } from 'firebase/firestore';
-import { db } from '../../../config/firebaseConfig';
+import { db } from '../../../lib/firebaseConfig';
 import { Layout } from 'react-grid-layout';
 
 interface DashboardLayout {

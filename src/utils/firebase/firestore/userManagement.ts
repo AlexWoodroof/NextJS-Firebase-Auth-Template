@@ -1,7 +1,7 @@
 // utils/firebase/userManagement.ts
 
 import { doc, setDoc, getDoc, updateDoc, deleteDoc } from 'firebase/firestore';
-import { db } from '../../../config/firebaseConfig';
+import { db } from '../../../lib/firebaseConfig';
 
 interface UserData {
   email: string;

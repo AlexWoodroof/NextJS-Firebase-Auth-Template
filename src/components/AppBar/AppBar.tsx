@@ -8,7 +8,7 @@ import {
 } from '@heroicons/react/24/outline';
 import { onAuthStateChanged } from 'firebase/auth';
 import { logout } from '../../utils/firebase/auth';
-import { auth } from '../../config/firebaseConfig';
+import { auth } from '../../lib/firebaseConfig';
 import { useRouter, usePathname } from 'next/navigation';
 import { useTheme } from '../ThemeContext';
 

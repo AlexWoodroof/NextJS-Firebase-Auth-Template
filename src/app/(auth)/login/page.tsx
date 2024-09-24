@@ -5,7 +5,7 @@ import React, { useEffect, useState } from 'react';
 import { useRouter } from 'next/navigation';
 import LoginForm from '../../../components/Auth/LoginForm';
 import { onAuthStateChanged } from 'firebase/auth';
-import { auth } from '../../../config/firebaseConfig';
+import { auth } from '../../../lib/firebaseConfig';
 
 const LoginPage: React.FC = () => {
   const [isLoading, setIsLoading] = useState(true);
