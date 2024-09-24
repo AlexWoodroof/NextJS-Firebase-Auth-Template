@@ -37,8 +37,8 @@ Before you begin, ensure you have the following installed:
 1. **Clone the Repository:**
 
    ```bash
-   git clone https://github.com/your-username/nextjs-firebase-auth.git
-   cd nextjs-firebase-auth
+   git clone https://github.com/AlexWoodroof/NextJS-Firebase-Auth-Template.git
+   cd NextJS-Firebase-Auth-Template
    ```
 2. Install dependencies
 
